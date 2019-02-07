@@ -5,6 +5,10 @@ class Thermostat {
   constructor(temperature = 20) {
     this.temperature = temperature;
   }
+
+  up(degree) {
+    this.temperature += degree
+  }
 };
 
 module.exports = Thermostat;
