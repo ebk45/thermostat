@@ -1,11 +1,16 @@
 ## User Stories
 
-#### User Story One 🚧
+#### User Story One ✅
 ```
 As a homeowner with a heating system,
 I would like a thermostat that displays the temperature (20 degrees)
 ```
-
+#### User Story Two 🚧
+```
+As a homeowner with a heating system,
+I would like to be able to increase the temperature  
+By selecting the up button
+```
 
 
 
@@ -14,7 +19,7 @@ I would like a thermostat that displays the temperature (20 degrees)
 
 ## Specifications:
 
-Thermostat starts at 20 degrees
+Thermostat starts at 20 degrees ✔️
 You can increase the temperature with an up function
 You can decrease the temperature with a down function
 The minimum temperature is 10 degrees
