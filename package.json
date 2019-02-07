@@ -1,0 +1,16 @@
+{
+  "name": "thermostat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "jest": "^24.1.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "description": ""
+}
