@@ -9,7 +9,7 @@ I would like a thermostat that displays the temperature (20 degrees)
 ```
 As a homeowner with a heating system,
 I would like to be able to increase the temperature  
-By selecting the up button
+By selecting the up function
 ```
 
 
