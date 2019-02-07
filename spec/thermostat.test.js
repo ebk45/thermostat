@@ -12,3 +12,8 @@ test('temperature can be increased with "up"', () => {
   thermostat.up(1)
   expect(thermostat.temperature).toEqual(21);
 });
+
+test('temperature can be decreased with "down"', () => {
+  thermostat.down(1)
+  expect(thermostat.temperature).toEqual(19);
+});
