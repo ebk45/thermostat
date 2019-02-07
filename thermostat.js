@@ -6,8 +6,12 @@ class Thermostat {
     this.temperature = temperature;
   }
 
-  up(degree) {
-    this.temperature += degree
+  up() {
+    this.temperature += 1
+  }
+
+  down() {
+    this.temperature -= 1
   }
 };
 
