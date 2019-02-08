@@ -20,11 +20,18 @@ I would like to be able to increase the temperature
 By selecting the down function
 ```
 
-#### User Story Four 🚧
+#### User Story Four ✅
 ```
 As a homeowner that appreciates the ambience in my front room  
 I would like the temperature to have a minimum temperature  
 This can be set to 10 degrees
+```
+
+#### User Story Five 🚧
+```
+As a homeowner concerned about rising energy prices  
+I would like to activate a power saving mode  
+This should set the maximum temperature to 25
 ```
 
 
@@ -36,7 +43,7 @@ This can be set to 10 degrees
 * Thermostat starts at 20 degrees ✔️
 * You can increase the temperature with an up function ✔️
 * You can decrease the temperature with a down function ✔️
-* The minimum temperature is 10 degrees
+* The minimum temperature is 10 degrees ✔️
 * If power saving mode is on, the maximum temperature is 25 degrees
 * If power saving mode is off, the maximum temperature is 32 degrees
 * Power saving mode is on by default
