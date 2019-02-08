@@ -30,8 +30,9 @@ This can be set to 10 degrees
 #### User Story Five 🚧
 ```
 As a homeowner concerned about rising energy prices  
-I would like to activate a power saving mode  
-This should set the maximum temperature to 25
+I would like a power saving mode on by default
+This should set the maximum temperature to 25 when on
+and 36 when off
 ```
 
 
