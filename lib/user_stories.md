@@ -13,11 +13,18 @@ I would like to be able to increase the temperature
 By selecting the up function
 ```
 
-#### User Story Three 🚧
+#### User Story Three ✅
 ```
 As a homeowner with a heating system  
 I would like to be able to increase the temperature  
 By selecting the down function
+```
+
+#### User Story Four 🚧
+```
+As a homeowner that appreciates the ambience in my front room  
+I would like the temperature to have a minimum temperature  
+This can be set to 10 degrees
 ```
 
 
@@ -28,7 +35,7 @@ By selecting the down function
 
 * Thermostat starts at 20 degrees ✔️
 * You can increase the temperature with an up function ✔️
-* You can decrease the temperature with a down function
+* You can decrease the temperature with a down function ✔️
 * The minimum temperature is 10 degrees
 * If power saving mode is on, the maximum temperature is 25 degrees
 * If power saving mode is off, the maximum temperature is 32 degrees
