@@ -6,10 +6,11 @@ class Thermostat {
     this.temperature = temperature;
     this._minTemp = 10;
     this.powerSave = true;
+    this._maxTemp = 25;
   };
 
   up() {
-    if (this.powerSave === true && this.temperature === 25) {
+    if (this.powerSave === true && this.temperature === this._maxTemp) {
       this.temperature += 0
     } else {
       this.temperature += 1
@@ -26,6 +27,11 @@ class Thermostat {
 
   checkPowerSaveMode() {
     return this.powerSave;
+  };
+
+  powerSaveOn() {
+    this.powerSave = true;
+    this._maxTemp = 25;
   };
 };
 
