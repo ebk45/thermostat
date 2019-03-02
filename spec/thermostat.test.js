@@ -35,4 +35,11 @@ describe('Thermostat', () => {
     expect(thermostat.checkPowerSaveMode()).toEqual(true);
   });
 
+  test('temperature max is 25 when powerSave is on', () => {
+    for (let i = 0; i < 6; i++) {
+      thermostat.up();
+    }
+    expect(thermostat.temperature).toEqual(25);
+  });
+
 });
