@@ -57,4 +57,11 @@ describe('Thermostat', () => {
     expect(thermostat.temperature).toEqual(20);
   });
 
+  test('energy usage is "low" when temp is below 18', () => {
+    for (let i = 0; i < 3; i++) {
+      thermostat.down();
+    }
+    expect(thermostat.energyUsage()).toEqual("low usage");
+  });
+
 });
