@@ -5,10 +5,15 @@ class Thermostat {
   constructor(temperature = 20) {
     this.temperature = temperature;
     this._minTemp = 10;
+    this.powerSave = true;
   };
 
   up() {
-    this.temperature += 1
+    if (this.powerSave === true && this.temperature === 25) {
+      this.temperature += 0
+    } else {
+      this.temperature += 1
+    }
   };
 
   down() {
@@ -17,6 +22,10 @@ class Thermostat {
     } else {
       this.temperature -= 1
     }
+  };
+
+  checkPowerSaveMode() {
+    return this.powerSave;
   };
 };
 
