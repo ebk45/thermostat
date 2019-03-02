@@ -48,6 +48,12 @@ class Thermostat {
       return this._maxTemp = 32
     }
   };
+
+  energyUsage() {
+    if (this.temperature <= 18) {
+      return "low usage"
+    }
+  };
 };
 
 module.exports = Thermostat;
