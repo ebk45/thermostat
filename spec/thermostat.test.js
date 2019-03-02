@@ -72,9 +72,11 @@ describe('Thermostat', () => {
   });
 
   test('energy usage is "high" when temp is above 26', () => {
+    thermostat.powerSaveOff()
     for (let i = 0; i < 6; i++) {
       thermostat.up();
     }
+    console.log(thermostat.temperature)
     expect(thermostat.energyUsage()).toEqual("high usage");
   });
 
