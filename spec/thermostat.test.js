@@ -36,6 +36,7 @@ describe('Thermostat', () => {
   });
 
   test('temperature max is 25 when powerSave is on', () => {
+    thermostat.powerSaveOn()
     for (let i = 0; i < 6; i++) {
       thermostat.up();
     }
