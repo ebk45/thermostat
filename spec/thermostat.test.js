@@ -64,4 +64,18 @@ describe('Thermostat', () => {
     expect(thermostat.energyUsage()).toEqual("low usage");
   });
 
+  test('energy usage is "medium" when temp is below 25', () => {
+    for (let i = 0; i < 3; i++) {
+      thermostat.up();
+    }
+    expect(thermostat.energyUsage()).toEqual("medium usage");
+  });
+
+  test('energy usage is "high" when temp is above 26', () => {
+    for (let i = 0; i < 6; i++) {
+      thermostat.up();
+    }
+    expect(thermostat.energyUsage()).toEqual("high usage");
+  });
+
 });
